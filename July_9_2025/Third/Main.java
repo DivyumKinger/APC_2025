@@ -27,10 +27,14 @@ public class Main {
 		//using presentOrElse
 		opt2.ifPresentOrElse(str-> System.out.println(str),
 				()-> System.out.println("No Value"));
+		
+		Optional<Integer> opt3 = Optional.ofNullable(null);
+		int i = opt3.orElse(9999);
+		System.out.println(i);
 	}
 	
 	private static String getName(){
-		String name = null;
+		String name = "Ram";
 		return name;
 	}
 }
