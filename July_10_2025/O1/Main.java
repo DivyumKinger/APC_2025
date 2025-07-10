@@ -8,8 +8,8 @@ import java.io.IOException;
 @SuppressWarnings("ALL")
 public class Main {
 	public static void main(String[] args) {
-		String filePath = "/Users/divyumkinger/Documents/Files/SEM 5/JAVA_Class/src/July_10_2025/O1/input.txt";     // Path of the source file
-		String copyPath = "/Users/divyumkinger/Documents/Files/SEM 5/JAVA_Class/src/July_10_2025/O1/output.txt";    // Path of the destination file
+		String filePath = "src/July_10_2025/O1/input.txt";     // Path of the source file
+		String copyPath = "src/July_10_2025/O1/output.txt";    // Path of the destination file
 		
 		FileInputStream fis = null;
 		FileOutputStream fos = null;
