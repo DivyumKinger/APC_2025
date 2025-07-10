@@ -25,7 +25,7 @@ public class Main {
 			int b;
 			while ((b = fis.read()) != -1) {
 				System.out.print((char) b);  // Display content
-				fos.write(b);                // Write content to new file
+				bos.write(b);                // Write content to new file
 			}
 			
 			System.out.println("\nFile copied successfully.");
@@ -39,7 +39,6 @@ public class Main {
 			try {
 				if (fis != null) fis.close();
 				if (fos != null) fos.close();
-				bos.close();
 			} catch (IOException e) {
 				System.out.println("Error closing file: " + e.getMessage());
 				e.printStackTrace();
