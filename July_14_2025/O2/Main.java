@@ -1,13 +1,14 @@
-package July_14_2025.O1;
+package July_14_2025.O2;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 @SuppressWarnings("ALL")
 public class Main {
 	public static void main(String[] args) {
-		List<String> cityList = new ArrayList<>();
+		List<String> cityList = new CopyOnWriteArrayList<>();
 		cityList.add("Bangalore");
 		cityList.add("New Delhi");
 		cityList.add("Pune");
