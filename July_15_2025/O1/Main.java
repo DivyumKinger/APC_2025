@@ -1,6 +1,5 @@
-package July_15_2025;
+package July_15_2025.O1;
 
-import java.util.Scanner;
 import java.util.Stack;
 // Other imports go here
 // Do NOT change the class name
